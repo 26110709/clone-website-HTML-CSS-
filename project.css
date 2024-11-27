@@ -1,0 +1,488 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.header{
+    width: 100vw;
+    height: 10%;
+    margin-top: 1.5rem;
+
+}
+.headerbox{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 13%;
+    margin-right: 13%;
+    align-items: center;
+}
+.h1 h2{
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.2rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    color: black;
+    font-size: 2rem;
+}
+.ha{
+    color: rgb(76, 72, 72);
+    font-size: 1.2rem;
+}
+#image1{
+    height: 70px;
+    width: 70px;
+
+}
+.h1{
+    display: flex;
+    color: rgba(0, 0, 0, 0.863);
+}
+.h2{
+    display: flex;
+    gap: 1rem;
+
+}
+a{
+    text-decoration: none;
+}
+#b1{
+    background-color: rgb(94, 76, 210);
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    border-radius: 4px;
+    color: white;
+}
+h2,.ha,#b1{
+    font-family: "Radio Canada Big", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#para1,#para2,#b2,#b3,h3,h6,h1,p{
+    font-family: "Radio Canada Big", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.content1box{
+    width:74vw;
+    height: 34rem;
+    margin-left: 13.5%;
+    margin-right: 13.5%;
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+.leftbox{
+    width: 57.5%;
+    height: 100%;
+    transition: all .3s linear 0s;
+    animation: slideInFromLeft 0.5s ease-out;
+}
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+#para1{
+    margin-top: 5rem;
+    color: rgb(94, 76, 210);
+}
+.leftbox h2{
+    font-size: 3rem;
+    margin-right: 4rem;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0rem;
+    margin-bottom: 2rem;
+}
+#para2{
+    margin-right: 9rem;
+    margin-bottom: 2rem;
+}
+.buttonbox{
+    display: flex;
+    gap: 1rem;
+}
+#b2{
+    background-color: rgb(94, 76, 210);
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    border-radius: 4px;
+    color: white;
+}
+#b3{
+    background-color: rgba(37, 36, 41, 0.824);
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    border-radius: 4px;
+    color: white;
+}
+.rightbox{
+    width: 42.5%;
+    height: 100%;
+
+}
+#image2{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+.content2box{
+    width: 500px;
+    height: 150px;
+    margin-left: 32%;
+    margin-right: 32%;
+    display: flex;
+    flex-direction: column;
+    animation: slideInFromLeft 0.8s ease-out;
+}
+.upperbox{
+    width: 100%;
+    height: 50%;   
+    display: flex;
+}
+.upperbox h3{
+    place-self: center;
+    margin-left: 7rem;
+    font-size: 2.2rem;
+}
+.lowerbox{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: rgba(61, 59, 59, 0.199);
+    border-radius: .5rem;
+}
+.blocks{
+    width: 90px;
+    height:25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blocks h6{
+    width: 85%;
+    height: 100%;
+    text-align: center;
+    padding-top: 5px;
+    padding-right: 10px;
+    color: rgba(57, 54, 54, 0.6);
+}
+.logo{
+    width: 19px;
+    height: 19px;
+    margin: .1rem;
+}
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(61, 59, 59, 0.199);
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header3{
+    width:650px;
+    height: 7rem;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+h1{
+    width: 100%;
+    height:60%;
+    font-size: 2.2rem;
+    text-align: center;
+}
+.header3 p{
+    width: 100%;
+    height: 40%;
+    color:rgba(57, 54, 54, 0.655);
+    text-align: center;
+}
+.lowerbox3{
+    width: 650px;
+    padding-right: 10px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,49%);
+    grid-template-rows: repeat(3,200px);
+    gap: 1rem;
+    padding-top: 1.2rem;
+    
+}
+.blocks3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .7rem;
+    text-align: center;
+    border-radius: 1rem;
+    padding-bottom: .6rem;
+    padding-left: .3rem;
+    padding-right: .3rem;
+}
+.image3{
+    height: 40px;
+    width: 40px;
+    margin: .7rem;
+    border-radius: 2rem;
+}
+#a{
+    background-color: rgba(36, 113, 255, 0.797);
+}
+#b{
+    background-color: rgba(255, 36, 65, 0.797);
+}
+#c{
+    background-color: rgb(255, 183, 67);
+}
+#d{
+    background-color: rgba(53, 139, 148, 0.991);
+}
+#e{
+    background-color: rgba(35, 156, 77, 0.753);
+}
+#f{
+    background-color: rgba(120, 36, 255, 0.6);
+}
+.blocks3 h3{
+    color:rgb(255, 255, 255);
+}
+.p3{
+    padding: .1rem;
+    color: rgb(255, 255, 255);
+}
+.content3box{
+    height: 80vh;
+    width: 74vw;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+.upperbox4{
+    width: 100%;
+    height: 45%;
+}
+.upperbox4 h3{
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+.cardsbox{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    gap: 2.2rem;
+    padding-left: 2.2rem;
+    margin-top: 1rem;
+}
+.box4{
+    width: 30%;
+    height: 100%;
+    box-shadow: 0px 0px 4px;
+    display: flex;
+    flex-direction: column;
+    /* gap: .5rem; */
+    align-items: center;
+    justify-content: center;
+    transition: all .3s linear 0s;
+}
+.box4:hover{
+    transform: scale(1.1);
+    box-shadow: 4px 4px 10px rgb(94, 76, 210);
+}
+.box4 p{
+    text-align: center;
+    font-size: .7rem;
+    color: rgba(57, 54, 54, 0.863);
+    margin-top: .7rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    
+}
+.image4{
+    width: 90px;
+    height: 90px;
+    border-radius: 80%;
+    margin: .5rem;
+}
+.box4 h5{
+    color: rgb(94, 76, 210);
+    font-size: 1.2rem;
+}
+.box4 h6{
+    padding: 0%;
+    margin-bottom: .5rem;
+}
+.lowerbox4{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    flex-direction: row;
+}
+.imgbox{
+    height: 100%;
+    width: 50%;
+}
+#bluered{
+    width: 100%;
+    height: 100%;
+}
+.rightbox4{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(61, 59, 59, 0.199);
+}
+.updatebox{
+    width: 85%;
+    height: 48%;
+    margin-left: 12%;
+    margin-right:15%;
+    margin-top: 17%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.heading{
+    width:100%;
+    height: 30%;
+}
+.heading h2{
+    color:rgb(94, 76, 210);
+    font-size: 2rem;
+}
+.subheading{
+    width: 100%;
+    height: 10%;
+    margin-bottom: 1rem;
+}
+.subheading h6{
+    font-size: .8rem;
+    color: rgba(0, 0, 0, 0.71);
+
+}
+#input{
+    height: 30px;
+}
+#send{
+    width: 70px;
+    height: 30px;
+    border: none;
+    background-color: rgb(94, 76, 210);
+    border-radius: .3rem;
+    color: white;
+}
+.updatebox p{
+    margin-top: 1rem;
+    font-size: .66rem;
+}
+.updatebox a{
+    text-decoration: underline;
+}
+.footer{
+    width: 74vw;
+    height:30vh;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 4rem;
+    display: flex;
+
+}
+.leftfooter{
+    width: 40%;
+    height: 100%;
+    padding-left: 1.5rem;
+}
+.heading1{
+    width: 200px;
+    height: 30px;
+    display: flex;
+    gap: .5rem;
+    margin-bottom: .6rem;
+}
+#footerimg{
+    width: 29px;
+    height: 29px;
+}
+#parabox p{
+    font-size: .8rem;
+    color: rgba(0, 0, 0, 0.71);
+}
+.logobox{
+    width: 200px;
+    height: 30px;
+    margin-top: .9rem;
+    display: flex;
+    gap: .2rem;
+    justify-content: space-evenly;
+}
+.logoboxes{
+    width: 15%;
+    height: 100%;
+}
+.logoimg{
+    width: 100%;
+    height: 100%;
+}
+.rightfooter{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    gap: 4rem;
+}
+.footerbox{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.boxes8{
+    width: 100%;
+    height: 8%;
+}
+.footerbox h2{
+    font-size: .8rem;
+}
+#box{
+    margin-bottom: 1rem;
+}
+.footerbox h6{
+    font-size: .7rem;
+    color: rgba(0, 0, 0, 0.71);
+}
+.lastbox{
+    width: 100vw;
+    height: 10vh;
+}
+.lastbox p{
+    text-align: center;
+    font-size: .6rem;
+}
+
